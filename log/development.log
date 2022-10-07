@@ -39,3 +39,339 @@ Migrating to CreateCoins (20221001032547)
   ↳ bin/rails:9
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ bin/rails:9
+Started GET "/" for ::1 at 2022-10-02 23:58:21 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.7.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-5.2.8.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-5.2.8.1/lib/rails/templates/rails/welcome/index.html.erb (1.5ms)
+Completed 200 OK in 6ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coins" for ::1 at 2022-10-02 23:58:24 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 279ms (Views: 276.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/coins/new" for ::1 at 2022-10-02 23:58:38 -0300
+Processing by CoinsController#new as HTML
+  Rendering coins/new.html.erb within layouts/application
+  Rendered coins/_form.html.erb (19.3ms)
+  Rendered coins/new.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 52ms (Views: 44.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/coins" for ::1 at 2022-10-02 23:58:40 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.5ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 33ms (Views: 28.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/coins/new" for ::1 at 2022-10-02 23:58:46 -0300
+Processing by CoinsController#new as HTML
+  Rendering coins/new.html.erb within layouts/application
+  Rendered coins/_form.html.erb (2.4ms)
+  Rendered coins/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coins/new" for ::1 at 2022-10-02 23:59:49 -0300
+Processing by CoinsController#new as HTML
+  Rendering coins/new.html.erb within layouts/application
+  Rendered coins/_form.html.erb (6.0ms)
+  Rendered coins/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coins" for ::1 at 2022-10-02 23:59:51 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/coins/new" for ::1 at 2022-10-03 00:00:02 -0300
+Processing by CoinsController#new as HTML
+  Rendering coins/new.html.erb within layouts/application
+  Rendered coins/_form.html.erb (2.1ms)
+  Rendered coins/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/coins" for ::1 at 2022-10-03 00:00:21 -0300
+Processing by CoinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HzMBvsLcjQ+9Z4/mKcTGKmeKzcZyq8XAU4pdNHONIALCYmu+bKJfUJ04ovVgQXbTUPv+N5TMhjZj4fWIT4UrDw==", "coin"=>{"description"=>"Bitcoin", "acronym"=>"BTC", "url_image"=>"https://bitcoin.org/favicon.png?1664356125"}, "commit"=>"Create Coin"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/coins_controller.rb:27
+  [1m[36mCoin Create (0.2ms)[0m  [1m[32mINSERT INTO "coins" ("description", "acronym", "url_image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["description", "Bitcoin"], ["acronym", "BTC"], ["url_image", "https://bitcoin.org/favicon.png?1664356125"], ["created_at", "2022-10-03 03:00:21.436856"], ["updated_at", "2022-10-03 03:00:21.436856"]]
+  ↳ app/controllers/coins_controller.rb:27
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/coins_controller.rb:27
+Redirected to http://localhost:3000/coins/1
+Completed 302 Found in 7ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/coins/1" for ::1 at 2022-10-03 00:00:21 -0300
+Processing by CoinsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:63
+  Rendering coins/show.html.erb within layouts/application
+  Rendered coins/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/coins/1" for ::1 at 2022-10-03 00:00:24 -0300
+Processing by CoinsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:63
+  Rendering coins/show.html.erb within layouts/application
+  Rendered coins/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 24ms (Views: 20.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/coins/1" for ::1 at 2022-10-03 00:00:25 -0300
+Processing by CoinsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:63
+  Rendering coins/show.html.erb within layouts/application
+  Rendered coins/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 33ms (Views: 29.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/coins" for ::1 at 2022-10-03 00:00:53 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/coins/1" for ::1 at 2022-10-03 00:00:57 -0300
+Processing by CoinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"/7zG3WLTZ4X5tSnnh7we20thwmoldeCkxjDgmvUId+m5zlWoi5wJunkMPgQ4EYcF/+O8GPgU9oR43bgfqSYv/g==", "id"=>"1"}
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:63
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/coins_controller.rb:52
+  [1m[36mCoin Destroy (0.3ms)[0m  [1m[31mDELETE FROM "coins" WHERE "coins"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/coins_controller.rb:52
+  [1m[35m (6.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/coins_controller.rb:52
+Redirected to http://localhost:3000/coins
+Completed 302 Found in 14ms (ActiveRecord: 7.4ms)
+
+
+Started GET "/coins" for ::1 at 2022-10-03 00:00:57 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/coins/new" for ::1 at 2022-10-03 00:00:59 -0300
+Processing by CoinsController#new as HTML
+  Rendering coins/new.html.erb within layouts/application
+  Rendered coins/_form.html.erb (2.4ms)
+  Rendered coins/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/coins" for ::1 at 2022-10-03 00:01:30 -0300
+Processing by CoinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A7KC60UvxVt8m9EViBILic3keb6Kj4yn37RZBFe9N4/e4+jr61EXBFzE/AbBl7tw+pVKT2zoz1Hv3/G4a7U8gg==", "coin"=>{"description"=>"Bitcoin", "acronym"=>"BTC", "url_image"=>"https://bitcoin.org/favicon.png?1664356125"}, "commit"=>"Create Coin"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/coins_controller.rb:27
+  [1m[36mCoin Create (0.2ms)[0m  [1m[32mINSERT INTO "coins" ("description", "acronym", "url_image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["description", "Bitcoin"], ["acronym", "BTC"], ["url_image", "https://bitcoin.org/favicon.png?1664356125"], ["created_at", "2022-10-03 03:01:30.686316"], ["updated_at", "2022-10-03 03:01:30.686316"]]
+  ↳ app/controllers/coins_controller.rb:27
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/coins_controller.rb:27
+Redirected to http://localhost:3000/coins/2
+Completed 302 Found in 10ms (ActiveRecord: 6.4ms)
+
+
+Started GET "/coins/2" for ::1 at 2022-10-03 00:01:30 -0300
+Processing by CoinsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:63
+  Rendering coins/show.html.erb within layouts/application
+  Rendered coins/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/coins" for ::1 at 2022-10-03 00:01:33 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/coins" for ::1 at 2022-10-03 00:01:35 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/coins" for ::1 at 2022-10-03 00:01:35 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/coins" for ::1 at 2022-10-03 00:01:36 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 28ms (Views: 25.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/coins" for ::1 at 2022-10-03 00:01:36 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.3ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 31ms (Views: 28.5ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/coins/2" for ::1 at 2022-10-03 00:01:41 -0300
+Processing by CoinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wLyuPLeCh/hvZBkWCX5jCMrJ9UZzx+6e8DIzFOeLqJOGzj1JXs3px+/dDvW20/rWfkuLNK6m+L5O32uRu6XwhA==", "id"=>"2"}
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:63
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/coins_controller.rb:52
+  [1m[36mCoin Destroy (0.3ms)[0m  [1m[31mDELETE FROM "coins" WHERE "coins"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/coins_controller.rb:52
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/coins_controller.rb:52
+Redirected to http://localhost:3000/coins
+Completed 302 Found in 12ms (ActiveRecord: 7.1ms)
+
+
+Started GET "/coins" for ::1 at 2022-10-03 00:01:41 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/coins" for ::1 at 2022-10-03 00:01:44 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.3ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 32ms (Views: 30.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/coins" for ::1 at 2022-10-03 00:01:44 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/coins" for ::1 at 2022-10-03 00:01:44 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 32ms (Views: 29.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/coins" for ::1 at 2022-10-03 00:30:51 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.4ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 31ms (Views: 28.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2022-10-07 18:50:03 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.7.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-5.2.8.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-5.2.8.1/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-10-07 18:57:18 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.7.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-5.2.8.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-5.2.8.1/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
+Completed 200 OK in 6ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for ::1 at 2022-10-07 18:57:22 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+actionpack (5.2.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.8.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.8.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.8.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.8.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-10-07 18:57:50 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-5.2.8.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-5.2.8.1/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
