@@ -1,6 +1,6 @@
 <%# Página de boas vindas %>
 
-<h1>Bem-vindo a Crypto Wallet!  </h1>
+<h1>Bem-vindo a <%= application_name %>!  </h1>
 <% user = 'Everson' << ' Silva' %>
 <p>Usuário: <%= user %></p>
 
@@ -8,4 +8,4 @@
     <li><%= link_to "Cadastro de moedas", coins_path %></li>
 </ul>
 
-<footer>São Paulo, SP - <%= Date.today %></footer>
+<footer>São Paulo, SP - <%= date_to_br Date.today %></footer>
