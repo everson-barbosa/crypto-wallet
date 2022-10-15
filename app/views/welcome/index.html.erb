@@ -3,9 +3,7 @@
 <h1>Bem-vindo a <%= application_name %>!  </h1>
 <p>Usuário: <%= @name %></p>
 
-<ul>
-    <li><%= link_to "Cadastro de moedas", coins_path %></li>
-</ul>
+<%= render "menu" %>
 
 <footer>São Paulo, SP - <%= date_to_br Date.today %></footer>
 <p>Você está no ambiente de <strong><%= application_environment %></strong></p>
