@@ -6,5 +6,4 @@ namespace :dev do
     puts %x(rails db:migrate)
     puts %x(rails db:seed)
   end
-
 end
