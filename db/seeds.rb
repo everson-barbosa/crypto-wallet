@@ -8,22 +8,26 @@
 
 puts("Cadastrando moedas...")
 
-Coin.create!(
-    description: 'Bitcoin',
-    acronym: 'BTC',
-    url_image: 'https://cdn-icons-png.flaticon.com/512/6943/6943101.png'
-)
+coins = [
+    {
+      description: 'Bitcoin',
+      acronym: 'BTC',
+      url_image: 'https://cdn-icons-png.flaticon.com/512/6943/6943101.png'
+    },
+    {
+      description: 'Ethereum',
+      acronym: 'ETH',
+      url_image: 'https://cdn-icons-png.flaticon.com/512/6943/6943137.png'
+    },
+    {
+      description: 'Dash',
+      acronym: 'DASH',
+      url_image: 'https://cdn-icons-png.flaticon.com/512/6943/6943131.png'
+    }
+  ]
 
-Coin.create!(
-    description: 'Ethereum',
-    acronym: 'ETH',
-    url_image: 'https://cdn-icons-png.flaticon.com/512/6943/6943137.png'
-)
-
-Coin.create!(
-    description: 'Dash',
-    acronym: 'DASH',
-    url_image: 'https://cdn-icons-png.flaticon.com/512/6943/6943131.png'
-)
+coins.each do |coin|
+    Coin.find_or_create_by!(coin)
+end
 
 puts("Moedas cadastradas com sucesso!")
