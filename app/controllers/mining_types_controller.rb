@@ -65,6 +65,6 @@ class MiningTypesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def mining_type_params
-      params.require(:mining_type).permit(:name, :acronym)
+      params.require(:mining_type).permit(:description, :acronym)
     end
 end
