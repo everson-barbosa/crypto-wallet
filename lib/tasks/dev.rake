@@ -5,8 +5,8 @@ namespace :dev do
       show_spinner("Apagando banco de dados") { %x(rails db:drop) }
       show_spinner("Criando banco de dados") { %x(rails db:create) }
       show_spinner("Migrand banco de dados") { %x(rails db:migrate) }
-      %x(rails dev:add_coins)
       %x(rails dev:add_mining_types)
+      %x(rails dev:add_coins)
     else
       puts "Você não está em ambiente de desenvolvimento"
     end
@@ -19,17 +19,32 @@ namespace :dev do
         {
           description: 'Bitcoin',
           acronym: 'BTC',
-          url_image: 'https://cdn-icons-png.flaticon.com/512/6943/6943101.png'
+          url_image: 'https://cdn-icons-png.flaticon.com/512/6943/6943101.png',
+          mining_type: MiningType.find_by(acronym: 'PoW')
         },
         {
           description: 'Ethereum',
           acronym: 'ETH',
-          url_image: 'https://cdn-icons-png.flaticon.com/512/6943/6943137.png'
+          url_image: 'https://cdn-icons-png.flaticon.com/512/6943/6943137.png',
+          mining_type: MiningType.all.sample
         },
         {
           description: 'Dash',
           acronym: 'DASH',
-          url_image: 'https://cdn-icons-png.flaticon.com/512/6943/6943131.png'
+          url_image: 'https://cdn-icons-png.flaticon.com/512/6943/6943131.png',
+          mining_type: MiningType.all.sample
+        },
+        {
+          description: 'Iota',
+          acronym: 'IOT',
+          url_image: 'https://cdn-icons-png.flaticon.com/512/6723/6723145.png',
+          mining_type: MiningType.all.sample
+        },
+        {
+          description: 'ZCash',
+          acronym: 'ZEC',
+          url_image: 'https://cdn-icons-png.flaticon.com/512/1490/1490861.png',
+          mining_type: MiningType.all.sample
         }
       ]
 
