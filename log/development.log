@@ -2302,3 +2302,295 @@ Processing by MiningTypesController#edit as HTML
 Completed 200 OK in 34ms (Views: 31.9ms | ActiveRecord: 0.2ms)
 
 
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (7.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateCoins (20221001032547)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "coins" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "description" varchar, "acronym" varchar, "url_image" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20221001032547_create_coins.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20221001032547"]]
+  ↳ bin/rails:9
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to CreateMiningTypes (20230402202907)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "mining_types" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "description" varchar, "acronym" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20230402202907_create_mining_types.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230402202907"]]
+  ↳ bin/rails:9
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-04-08 19:10:15.697839"], ["updated_at", "2023-04-08 19:10:15.697839"]]
+  ↳ bin/rails:9
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."description" = ? AND "coins"."acronym" = ? AND "coins"."url_image" = ? LIMIT ?[0m  [["description", "Bitcoin"], ["acronym", "BTC"], ["url_image", "https://cdn-icons-png.flaticon.com/512/6943/6943101.png"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:37
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:37
+  [1m[36mCoin Create (0.2ms)[0m  [1m[32mINSERT INTO "coins" ("description", "acronym", "url_image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["description", "Bitcoin"], ["acronym", "BTC"], ["url_image", "https://cdn-icons-png.flaticon.com/512/6943/6943101.png"], ["created_at", "2023-04-08 19:10:16.550039"], ["updated_at", "2023-04-08 19:10:16.550039"]]
+  ↳ lib/tasks/dev.rake:37
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:37
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."description" = ? AND "coins"."acronym" = ? AND "coins"."url_image" = ? LIMIT ?[0m  [["description", "Ethereum"], ["acronym", "ETH"], ["url_image", "https://cdn-icons-png.flaticon.com/512/6943/6943137.png"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:37
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:37
+  [1m[36mCoin Create (0.1ms)[0m  [1m[32mINSERT INTO "coins" ("description", "acronym", "url_image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["description", "Ethereum"], ["acronym", "ETH"], ["url_image", "https://cdn-icons-png.flaticon.com/512/6943/6943137.png"], ["created_at", "2023-04-08 19:10:16.558152"], ["updated_at", "2023-04-08 19:10:16.558152"]]
+  ↳ lib/tasks/dev.rake:37
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:37
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."description" = ? AND "coins"."acronym" = ? AND "coins"."url_image" = ? LIMIT ?[0m  [["description", "Dash"], ["acronym", "DASH"], ["url_image", "https://cdn-icons-png.flaticon.com/512/6943/6943131.png"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:37
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:37
+  [1m[36mCoin Create (0.1ms)[0m  [1m[32mINSERT INTO "coins" ("description", "acronym", "url_image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["description", "Dash"], ["acronym", "DASH"], ["url_image", "https://cdn-icons-png.flaticon.com/512/6943/6943131.png"], ["created_at", "2023-04-08 19:10:16.563038"], ["updated_at", "2023-04-08 19:10:16.563038"]]
+  ↳ lib/tasks/dev.rake:37
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:37
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."description" = ? AND "mining_types"."acronym" = ? LIMIT ?[0m  [["description", "Proof of Work"], ["acronym", "PoW"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mMiningType Create (0.1ms)[0m  [1m[32mINSERT INTO "mining_types" ("description", "acronym", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Proof of Work"], ["acronym", "PoW"], ["created_at", "2023-04-08 19:10:17.391362"], ["updated_at", "2023-04-08 19:10:17.391362"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."description" = ? AND "mining_types"."acronym" = ? LIMIT ?[0m  [["description", "Proof of Stake"], ["acronym", "PoS"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mMiningType Create (0.2ms)[0m  [1m[32mINSERT INTO "mining_types" ("description", "acronym", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Proof of Stake"], ["acronym", "PoS"], ["created_at", "2023-04-08 19:10:17.398125"], ["updated_at", "2023-04-08 19:10:17.398125"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."description" = ? AND "mining_types"."acronym" = ? LIMIT ?[0m  [["description", "Proof of Capacity"], ["acronym", "PoC"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mMiningType Create (0.1ms)[0m  [1m[32mINSERT INTO "mining_types" ("description", "acronym", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Proof of Capacity"], ["acronym", "PoC"], ["created_at", "2023-04-08 19:10:17.404521"], ["updated_at", "2023-04-08 19:10:17.404521"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (7.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (3.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateCoins (20221001032547)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "coins" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "description" varchar, "acronym" varchar, "url_image" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20221001032547_create_coins.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20221001032547"]]
+  ↳ bin/rails:9
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to CreateMiningTypes (20230402202907)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "mining_types" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "description" varchar, "acronym" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20230402202907_create_mining_types.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230402202907"]]
+  ↳ bin/rails:9
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-04-08 19:12:48.689173"], ["updated_at", "2023-04-08 19:12:48.689173"]]
+  ↳ bin/rails:9
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."description" = ? AND "coins"."acronym" = ? AND "coins"."url_image" = ? LIMIT ?[0m  [["description", "Bitcoin"], ["acronym", "BTC"], ["url_image", "https://cdn-icons-png.flaticon.com/512/6943/6943101.png"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:37
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:37
+  [1m[36mCoin Create (0.1ms)[0m  [1m[32mINSERT INTO "coins" ("description", "acronym", "url_image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["description", "Bitcoin"], ["acronym", "BTC"], ["url_image", "https://cdn-icons-png.flaticon.com/512/6943/6943101.png"], ["created_at", "2023-04-08 19:12:49.498593"], ["updated_at", "2023-04-08 19:12:49.498593"]]
+  ↳ lib/tasks/dev.rake:37
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:37
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."description" = ? AND "coins"."acronym" = ? AND "coins"."url_image" = ? LIMIT ?[0m  [["description", "Ethereum"], ["acronym", "ETH"], ["url_image", "https://cdn-icons-png.flaticon.com/512/6943/6943137.png"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:37
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:37
+  [1m[36mCoin Create (0.1ms)[0m  [1m[32mINSERT INTO "coins" ("description", "acronym", "url_image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["description", "Ethereum"], ["acronym", "ETH"], ["url_image", "https://cdn-icons-png.flaticon.com/512/6943/6943137.png"], ["created_at", "2023-04-08 19:12:49.506385"], ["updated_at", "2023-04-08 19:12:49.506385"]]
+  ↳ lib/tasks/dev.rake:37
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:37
+  [1m[36mCoin Load (0.0ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."description" = ? AND "coins"."acronym" = ? AND "coins"."url_image" = ? LIMIT ?[0m  [["description", "Dash"], ["acronym", "DASH"], ["url_image", "https://cdn-icons-png.flaticon.com/512/6943/6943131.png"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:37
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:37
+  [1m[36mCoin Create (0.1ms)[0m  [1m[32mINSERT INTO "coins" ("description", "acronym", "url_image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["description", "Dash"], ["acronym", "DASH"], ["url_image", "https://cdn-icons-png.flaticon.com/512/6943/6943131.png"], ["created_at", "2023-04-08 19:12:49.510614"], ["updated_at", "2023-04-08 19:12:49.510614"]]
+  ↳ lib/tasks/dev.rake:37
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:37
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."description" = ? AND "mining_types"."acronym" = ? LIMIT ?[0m  [["description", "Proof of Work"], ["acronym", "PoW"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mMiningType Create (0.1ms)[0m  [1m[32mINSERT INTO "mining_types" ("description", "acronym", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Proof of Work"], ["acronym", "PoW"], ["created_at", "2023-04-08 19:12:50.327058"], ["updated_at", "2023-04-08 19:12:50.327058"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."description" = ? AND "mining_types"."acronym" = ? LIMIT ?[0m  [["description", "Proof of Stake"], ["acronym", "PoS"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mMiningType Create (0.3ms)[0m  [1m[32mINSERT INTO "mining_types" ("description", "acronym", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Proof of Stake"], ["acronym", "PoS"], ["created_at", "2023-04-08 19:12:50.336841"], ["updated_at", "2023-04-08 19:12:50.336841"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."description" = ? AND "mining_types"."acronym" = ? LIMIT ?[0m  [["description", "Proof of Capacity"], ["acronym", "PoC"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mMiningType Create (0.2ms)[0m  [1m[32mINSERT INTO "mining_types" ("description", "acronym", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Proof of Capacity"], ["acronym", "PoC"], ["created_at", "2023-04-08 19:12:50.343371"], ["updated_at", "2023-04-08 19:12:50.343371"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+Started GET "/" for ::1 at 2023-04-08 16:14:53 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/share/rvm/gems/ruby-2.7.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/adm (1.5ms)
+Completed 200 OK in 143ms (Views: 138.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-08 16:14:55 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.7ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 54ms (Views: 44.0ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/mining_types/3/edit" for ::1 at 2023-04-08 16:14:59 -0300
+Processing by MiningTypesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMiningType Load (0.7ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/edit.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (16.8ms)
+  Rendered mining_types/edit.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 76ms (Views: 43.5ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/mining_types/3" for ::1 at 2023-04-08 16:15:03 -0300
+Processing by MiningTypesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FVVrVUTtpih5YRE+ddO1uEfc92FIYXB8glG1dAi4tCHT9B0Q0pS+dmqgv1adbhjMF20pGQDCrNkyBYHuyjPIKg==", "mining_type"=>{"description"=>"Proof of Capacitys", "acronym"=>"PoC"}, "commit"=>"Update Mining type", "id"=>"3"}
+  [1m[36mMiningType Load (0.2ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/mining_types_controller.rb:40
+  [1m[36mMiningType Update (0.4ms)[0m  [1m[33mUPDATE "mining_types" SET "description" = ?, "updated_at" = ? WHERE "mining_types"."id" = ?[0m  [["description", "Proof of Capacitys"], ["updated_at", "2023-04-08 19:15:03.038191"], ["id", 3]]
+  ↳ app/controllers/mining_types_controller.rb:40
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/mining_types_controller.rb:40
+Redirected to http://localhost:3000/mining_types/3
+Completed 302 Found in 18ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/mining_types/3" for ::1 at 2023-04-08 16:15:03 -0300
+Processing by MiningTypesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMiningType Load (0.2ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/show.html.erb within layouts/application
+  Rendered mining_types/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 31ms (Views: 28.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-08 16:15:05 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.3ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.3ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddMiningTypeToCoins (20230408192638)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "coins" ADD "mining_type_id" integer[0m
+  ↳ db/migrate/20230408192638_add_mining_type_to_coins.rb:3
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20230408192638_add_mining_type_to_coins.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_coins_on_mining_type_id" ON "coins" ("mining_type_id")[0m
+  ↳ db/migrate/20230408192638_add_mining_type_to_coins.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230408192638"]]
+  ↳ bin/rails:9
+  [1m[35m (7.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (1.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" ORDER BY "coins"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mCoin Load (0.3ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
