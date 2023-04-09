@@ -3447,3 +3447,16 @@ Processing by CoinsController#edit as HTML
 Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/coins/2/edit" for ::1 at 2023-04-09 18:08:58 -0300
+Processing by CoinsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:63
+  Rendering coins/edit.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "mining_types"."description", "mining_types"."id" FROM "mining_types"[0m
+  ↳ app/views/coins/_form.html.erb:31
+  Rendered coins/_form.html.erb (4.2ms)
+  Rendered coins/edit.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.3ms)
+
+
