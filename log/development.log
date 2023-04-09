@@ -3297,3 +3297,153 @@ Completed 200 OK in 37ms (Views: 32.1ms | ActiveRecord: 0.7ms)
   [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" ORDER BY "coins"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
   [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" ORDER BY "coins"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
   [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/coins/2/edit" for ::1 at 2023-04-09 17:53:06 -0300
+Processing by CoinsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCoin Load (0.3ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:63
+  Rendering coins/edit.html.erb within layouts/application
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/coins/_form.html.erb:30
+  Rendered coins/_form.html.erb (22.7ms)
+  Rendered coins/edit.html.erb within layouts/application (24.1ms)
+Completed 200 OK in 87ms (Views: 52.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/coins/2/edit" for ::1 at 2023-04-09 17:59:33 -0300
+Processing by CoinsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCoin Load (0.5ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:63
+  Rendering coins/edit.html.erb within layouts/application
+  [1m[36mMiningType Load (0.3ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/coins/_form.html.erb:30
+  Rendered coins/_form.html.erb (21.3ms)
+  Rendered coins/edit.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 45ms (Views: 39.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/coins/2/edit" for ::1 at 2023-04-09 18:00:23 -0300
+Processing by CoinsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:63
+  Rendering coins/edit.html.erb within layouts/application
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/coins/_form.html.erb:30
+  Rendered coins/_form.html.erb (2.3ms)
+  Rendered coins/edit.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/coins/2/edit" for ::1 at 2023-04-09 18:03:37 -0300
+Processing by CoinsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:63
+  Rendering coins/edit.html.erb within layouts/application
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/coins/_form.html.erb:31
+  Rendered coins/_form.html.erb (7.5ms)
+  Rendered coins/edit.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 30ms (Views: 20.0ms | ActiveRecord: 1.0ms)
+
+
+Started PATCH "/coins/2" for ::1 at 2023-04-09 18:03:42 -0300
+Processing by CoinsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TkYu3GeSu/qYHz2T3bUIHMvScqWFg6h5tEllItCsGSANCzUOs5MD6q2THXVHTrDx9TiD7o7/URWoJWv3YgMMtg==", "coin"=>{"description"=>"Ethereum", "acronym"=>"ETH", "url_image"=>"https://cdn-icons-png.flaticon.com/512/6943/6943137.png", "mining_type_id"=>"2"}, "commit"=>"Update Coin", "id"=>"2"}
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:63
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/coins_controller.rb:40
+  [1m[36mMiningType Load (0.2ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:40
+  [1m[36mCoin Update (0.4ms)[0m  [1m[33mUPDATE "coins" SET "mining_type_id" = ?, "updated_at" = ? WHERE "coins"."id" = ?[0m  [["mining_type_id", 2], ["updated_at", "2023-04-09 21:03:42.252051"], ["id", 2]]
+  ↳ app/controllers/coins_controller.rb:40
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/coins_controller.rb:40
+Redirected to http://localhost:3000/coins/2
+Completed 302 Found in 19ms (ActiveRecord: 7.9ms)
+
+
+Started GET "/coins/2" for ::1 at 2023-04-09 18:03:42 -0300
+Processing by CoinsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:63
+  Rendering coins/show.html.erb within layouts/application
+  Rendered coins/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-09 18:03:44 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/coins/2/edit" for ::1 at 2023-04-09 18:03:48 -0300
+Processing by CoinsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:63
+  Rendering coins/edit.html.erb within layouts/application
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/coins/_form.html.erb:31
+  Rendered coins/_form.html.erb (4.6ms)
+  Rendered coins/edit.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/coins/2" for ::1 at 2023-04-09 18:03:53 -0300
+Processing by CoinsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eVV/Wl/Rx8JWFC0sJiJ4VsgGuOvPIEGVgkUojzj6sn9qjfC1r2Lub48Q0OXTclQgp9faXMabb2IE44VP7QnIcA==", "coin"=>{"description"=>"Ethereum", "acronym"=>"ETH", "url_image"=>"https://cdn-icons-png.flaticon.com/512/6943/6943137.png", "mining_type_id"=>"3"}, "commit"=>"Update Coin", "id"=>"2"}
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:63
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/coins_controller.rb:40
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:40
+  [1m[36mCoin Update (0.3ms)[0m  [1m[33mUPDATE "coins" SET "mining_type_id" = ?, "updated_at" = ? WHERE "coins"."id" = ?[0m  [["mining_type_id", 3], ["updated_at", "2023-04-09 21:03:53.937571"], ["id", 2]]
+  ↳ app/controllers/coins_controller.rb:40
+  [1m[35m (17.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/coins_controller.rb:40
+Redirected to http://localhost:3000/coins/2
+Completed 302 Found in 24ms (ActiveRecord: 18.2ms)
+
+
+Started GET "/coins/2" for ::1 at 2023-04-09 18:03:53 -0300
+Processing by CoinsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:63
+  Rendering coins/show.html.erb within layouts/application
+  Rendered coins/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-09 18:03:55 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.3ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 40ms (Views: 38.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/coins/2/edit" for ::1 at 2023-04-09 18:03:58 -0300
+Processing by CoinsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:63
+  Rendering coins/edit.html.erb within layouts/application
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/coins/_form.html.erb:31
+  Rendered coins/_form.html.erb (4.3ms)
+  Rendered coins/edit.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.3ms)
+
+
