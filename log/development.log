@@ -3460,3 +3460,90 @@ Processing by CoinsController#edit as HTML
 Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/coins/2/edit" for ::1 at 2023-04-09 18:13:01 -0300
+Processing by CoinsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:68
+  Rendering coins/edit.html.erb within layouts/application
+  Rendered coins/_form.html.erb (7.9ms)
+  Rendered coins/edit.html.erb within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `map' for nil:NilClass):
+    28: 
+    29:   <div class="field">
+    30:     <%= form.label :mining_type_id %>
+    31:     <%= form.select('mining_type_id', @mining_type_options, { include_blank: 'Selecione' } ) %>
+    32:   </div>
+    33: 
+    34:   <div class="actions">
+  
+app/views/coins/_form.html.erb:31:in `block in _app_views_coins__form_html_erb__502909573845335878_24040'
+app/views/coins/_form.html.erb:1:in `_app_views_coins__form_html_erb__502909573845335878_24040'
+app/views/coins/edit.html.erb:3:in `_app_views_coins_edit_html_erb___1316740502372340172_24020'
+Started GET "/coins/2/edit" for ::1 at 2023-04-09 18:13:57 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/share/rvm/gems/ruby-2.7.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by CoinsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:68
+  Rendering coins/edit.html.erb within layouts/application
+  Rendered coins/_form.html.erb (5.6ms)
+  Rendered coins/edit.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `map' for nil:NilClass):
+    28: 
+    29:   <div class="field">
+    30:     <%= form.label :mining_type_id %>
+    31:     <%= form.select('mining_type_id', @mining_type_options, { include_blank: 'Selecione' } ) %>
+    32:   </div>
+    33: 
+    34:   <div class="actions">
+  
+app/views/coins/_form.html.erb:31:in `block in _app_views_coins__form_html_erb__781203739919733159_15700'
+app/views/coins/_form.html.erb:1:in `_app_views_coins__form_html_erb__781203739919733159_15700'
+app/views/coins/edit.html.erb:3:in `_app_views_coins_edit_html_erb___3155686330607790893_15680'
+Started GET "/coins/2/edit" for ::1 at 2023-04-09 18:13:58 -0300
+Processing by CoinsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:68
+  Rendering coins/edit.html.erb within layouts/application
+  Rendered coins/_form.html.erb (7.3ms)
+  Rendered coins/edit.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `map' for nil:NilClass):
+    28: 
+    29:   <div class="field">
+    30:     <%= form.label :mining_type_id %>
+    31:     <%= form.select('mining_type_id', @mining_type_options, { include_blank: 'Selecione' } ) %>
+    32:   </div>
+    33: 
+    34:   <div class="actions">
+  
+app/views/coins/_form.html.erb:31:in `block in _app_views_coins__form_html_erb__781203739919733159_16280'
+app/views/coins/_form.html.erb:1:in `_app_views_coins__form_html_erb__781203739919733159_16280'
+app/views/coins/edit.html.erb:3:in `_app_views_coins_edit_html_erb___3155686330607790893_16260'
+Started GET "/coins/2/edit" for ::1 at 2023-04-09 18:14:35 -0300
+Processing by CoinsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:68
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "mining_types"."description", "mining_types"."id" FROM "mining_types"[0m
+  ↳ app/controllers/coins_controller.rb:63
+  Rendering coins/edit.html.erb within layouts/application
+  Rendered coins/_form.html.erb (2.5ms)
+  Rendered coins/edit.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 157ms (Views: 139.3ms | ActiveRecord: 0.9ms)
+
+
