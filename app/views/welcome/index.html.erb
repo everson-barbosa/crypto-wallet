@@ -1,6 +1,6 @@
-<%# Página de boas vindas %>
-
 <h1>Bem-vindo a <%= application_name %>!  </h1>
+<p>O idioma usado nessa aplicação é: <strong><%= get_locale I18n.locale %></strong></p>
+<p><strong>Data:</strong> <%= Date.today %></p>
 <p>Usuário: <%= @name %></p>
 
 <%= render "menu" %>

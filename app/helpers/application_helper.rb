@@ -1,4 +1,9 @@
 module ApplicationHelper
+
+    def get_locale(locate)
+        locales = { en: 'Inglês', 'pt-BR': 'Portugues - Brasil' }
+        locales[locale]
+    end
     
     def application_name
         'Crypto Wallet'
