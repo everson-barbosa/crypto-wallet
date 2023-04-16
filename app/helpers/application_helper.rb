@@ -1,8 +1,8 @@
 module ApplicationHelper
 
-    def get_locale(locate)
+    def get_locale
         locales = { en: 'Inglês', 'pt-BR': 'Português - Brasil' }
-        locales[locale]
+        locales[I18n.locale]
     end
     
     def application_name
