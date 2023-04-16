@@ -1,7 +1,7 @@
 module ApplicationHelper
 
     def get_locale(locate)
-        locales = { en: 'Inglês', 'pt-BR': 'Portugues - Brasil' }
+        locales = { en: 'Inglês', 'pt-BR': 'Português - Brasil' }
         locales[locale]
     end
     
