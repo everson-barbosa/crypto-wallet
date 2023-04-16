@@ -1,0 +1,26 @@
+pt-BR:
+  welcome: 'Bem-vindo a'
+  show: 'Mostrar'
+  edit: 'Editar'
+  delete: 'Apagar'
+  back: 'Voltar'
+  select: 'Selecione'
+  confirm: 'Tem certeza?'
+  coin:
+    singular: 'Moeda'
+    plural: 'Moedas'
+    new: 'Nova moeda'
+    edit: 'Editando moeda'
+    fields:
+      description: 'Descrição' 
+      acronym: 'Sigla' 
+      url_image: 'URL da imagem' 
+      mining_type_id: 'Id do tipo de mineiração'
+  mining_type:
+    singular: 'Tipo de mineiração'
+    plural: 'Tipos de mineiração'
+    new: 'Novo tipo de mineiração'
+    edit: 'Editando tipo de mineiração'
+    fields:
+      description: 'Descrição' 
+      acronym: 'Sigla' 

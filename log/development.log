@@ -3639,3 +3639,1069 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2023-04-15 20:37:13 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/share/rvm/gems/ruby-2.7.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/adm (1.3ms)
+Completed 200 OK in 100ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-15 20:37:29 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/adm (281.1ms)
+Completed 200 OK in 296ms (Views: 293.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-15 20:39:16 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/adm (24.7ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-15 20:39:17 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (1.4ms)
+  Rendered welcome/index.html.erb within layouts/adm (4.1ms)
+Completed 200 OK in 37ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-15 20:39:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (1.3ms)
+  Rendered welcome/index.html.erb within layouts/adm (4.2ms)
+Completed 200 OK in 38ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-15 20:39:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (1.2ms)
+  Rendered welcome/index.html.erb within layouts/adm (3.9ms)
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-15 20:39:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (1.3ms)
+  Rendered welcome/index.html.erb within layouts/adm (4.8ms)
+Completed 200 OK in 35ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-15 20:39:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (1.1ms)
+  Rendered welcome/index.html.erb within layouts/adm (3.7ms)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-15 20:39:25 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.8ms)
+  Rendered welcome/index.html.erb within layouts/adm (50.4ms)
+Completed 200 OK in 77ms (Views: 76.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-15 20:39:42 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/adm (23.0ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-15 20:39:44 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (1.8ms)
+  Rendered welcome/index.html.erb within layouts/adm (5.5ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-15 20:39:45 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (1.3ms)
+  Rendered welcome/index.html.erb within layouts/adm (4.5ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-15 20:39:51 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (1.5ms)
+  Rendered welcome/index.html.erb within layouts/adm (4.4ms)
+Completed 200 OK in 43ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-15 20:40:07 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/share/rvm/gems/ruby-2.7.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/adm (22.7ms)
+Completed 200 OK in 136ms (Views: 132.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-15 21:00:29 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/share/rvm/gems/ruby-2.7.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/adm (24.1ms)
+Completed 200 OK in 139ms (Views: 135.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-15 21:00:32 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  Rendered coins/index.html.erb within layouts/application (7.2ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:8: unknown regexp options - th
+      <th>Nome</th>
+               ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:9: syntax error, unexpected '<'
+      <th>Sigla</th>
+      ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:10: unknown regexp options - th
+      <th>Imagem</th>
+                 ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:11: syntax error, unexpected '<'
+      <th colspan="3"></th>
+      ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:11: syntax error, unexpected '<'
+      <th colspan="3"></th>
+                      ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:12: unknown regexp options - tr
+    </tr>
+     ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:13: syntax error, unexpected '<'
+  </thead>
+  ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:18: unknown regexp options - td
+...output_buffer.safe_append='</td>
+...                            ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:19: syntax error, unexpected '<'
+        <td>'.freeze;@output_buffer.ap...
+        ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:20: unknown regexp options - td
+...output_buffer.safe_append='</td>
+...                            ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:21: syntax error, unexpected '<'
+        <td>'.freeze;@output_buffer.ap...
+        ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:21: syntax error, unexpected local variable or method, expecting `end'
+...buffer.append=( link_to t('show'), coin );@output_buffer.saf...
+...                           ^~~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:22: unknown regexp options - td
+...output_buffer.safe_append='</td>
+...                            ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:23: syntax error, unexpected '<'
+        <td>'.freeze;@output_buffer.ap...
+        ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:23: syntax error, unexpected local variable or method, expecting `end'
+...ffer.append=( link_to t('delete'), coin, method: :delete, da...
+...                         ^~~~~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:23: syntax error, unexpected local variable or method, expecting `end'
+...te, data: { confirm: t('confirm') } );@output_buffer.safe_ap...
+...                        ^~~~~~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:24: unknown regexp options - tr
+      </tr>
+       ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:27: unknown regexp options - tabl
+</table>
+ ^~~~~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:29: syntax error, unexpected '<'
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:31: syntax error, unexpected local variable or method, expecting `end'
+...buffer.append=( link_to t('coin.new'), new_coin_path );
+...                           ^~~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:36: unterminated string meets end of file
+          end
+             ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:36: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/views/coins/index.html.erb:8: unknown regexp options - th
+app/views/coins/index.html.erb:9: syntax error, unexpected '<'
+app/views/coins/index.html.erb:10: unknown regexp options - th
+app/views/coins/index.html.erb:11: syntax error, unexpected '<'
+app/views/coins/index.html.erb:11: syntax error, unexpected '<'
+app/views/coins/index.html.erb:12: unknown regexp options - tr
+app/views/coins/index.html.erb:13: syntax error, unexpected '<'
+app/views/coins/index.html.erb:18: unknown regexp options - td
+app/views/coins/index.html.erb:19: syntax error, unexpected '<'
+app/views/coins/index.html.erb:20: unknown regexp options - td
+app/views/coins/index.html.erb:21: syntax error, unexpected '<'
+app/views/coins/index.html.erb:21: syntax error, unexpected local variable or method, expecting `end'
+app/views/coins/index.html.erb:22: unknown regexp options - td
+app/views/coins/index.html.erb:23: syntax error, unexpected '<'
+app/views/coins/index.html.erb:23: syntax error, unexpected local variable or method, expecting `end'
+app/views/coins/index.html.erb:23: syntax error, unexpected local variable or method, expecting `end'
+app/views/coins/index.html.erb:24: unknown regexp options - tr
+app/views/coins/index.html.erb:27: unknown regexp options - tabl
+app/views/coins/index.html.erb:29: syntax error, unexpected '<'
+app/views/coins/index.html.erb:31: syntax error, unexpected local variable or method, expecting `end'
+app/views/coins/index.html.erb:36: unterminated string meets end of file
+app/views/coins/index.html.erb:36: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/coins" for ::1 at 2023-04-15 21:00:53 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  Rendered coins/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:8: unknown regexp options - th
+      <th>Nome</th>
+               ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:9: syntax error, unexpected '<'
+      <th>Sigla</th>
+      ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:10: unknown regexp options - th
+      <th>Imagem</th>
+                 ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:11: syntax error, unexpected '<'
+      <th colspan="3"></th>
+      ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:11: syntax error, unexpected '<'
+      <th colspan="3"></th>
+                      ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:12: unknown regexp options - tr
+    </tr>
+     ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:13: syntax error, unexpected '<'
+  </thead>
+  ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:18: unknown regexp options - td
+...output_buffer.safe_append='</td>
+...                            ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:19: syntax error, unexpected '<'
+        <td>'.freeze;@output_buffer.ap...
+        ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:20: unknown regexp options - td
+...output_buffer.safe_append='</td>
+...                            ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:21: syntax error, unexpected '<'
+        <td>'.freeze;@output_buffer.ap...
+        ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:21: syntax error, unexpected local variable or method, expecting `end'
+...buffer.append=( link_to t('show'), coin );@output_buffer.saf...
+...                           ^~~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:22: unknown regexp options - td
+...output_buffer.safe_append='</td>
+...                            ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:23: syntax error, unexpected '<'
+        <td>'.freeze;@output_buffer.ap...
+        ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:23: syntax error, unexpected local variable or method, expecting `end'
+...ffer.append=( link_to t('delete'), coin, method: :delete, da...
+...                         ^~~~~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:23: syntax error, unexpected local variable or method, expecting `end'
+...te, data: { confirm: t('confirm') } );@output_buffer.safe_ap...
+...                        ^~~~~~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:24: unknown regexp options - tr
+      </tr>
+       ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:27: unknown regexp options - tabl
+</table>
+ ^~~~~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:29: syntax error, unexpected '<'
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:31: syntax error, unexpected constant, expecting `end'
+...t_buffer.append=( link_to 'Coin', new_coin_path );
+...                           ^~~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:36: unterminated string meets end of file
+          end
+             ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:36: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/views/coins/index.html.erb:8: unknown regexp options - th
+app/views/coins/index.html.erb:9: syntax error, unexpected '<'
+app/views/coins/index.html.erb:10: unknown regexp options - th
+app/views/coins/index.html.erb:11: syntax error, unexpected '<'
+app/views/coins/index.html.erb:11: syntax error, unexpected '<'
+app/views/coins/index.html.erb:12: unknown regexp options - tr
+app/views/coins/index.html.erb:13: syntax error, unexpected '<'
+app/views/coins/index.html.erb:18: unknown regexp options - td
+app/views/coins/index.html.erb:19: syntax error, unexpected '<'
+app/views/coins/index.html.erb:20: unknown regexp options - td
+app/views/coins/index.html.erb:21: syntax error, unexpected '<'
+app/views/coins/index.html.erb:21: syntax error, unexpected local variable or method, expecting `end'
+app/views/coins/index.html.erb:22: unknown regexp options - td
+app/views/coins/index.html.erb:23: syntax error, unexpected '<'
+app/views/coins/index.html.erb:23: syntax error, unexpected local variable or method, expecting `end'
+app/views/coins/index.html.erb:23: syntax error, unexpected local variable or method, expecting `end'
+app/views/coins/index.html.erb:24: unknown regexp options - tr
+app/views/coins/index.html.erb:27: unknown regexp options - tabl
+app/views/coins/index.html.erb:29: syntax error, unexpected '<'
+app/views/coins/index.html.erb:31: syntax error, unexpected constant, expecting `end'
+app/views/coins/index.html.erb:36: unterminated string meets end of file
+app/views/coins/index.html.erb:36: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/coins" for ::1 at 2023-04-15 21:00:54 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  Rendered coins/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:8: unknown regexp options - th
+      <th>Nome</th>
+               ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:9: syntax error, unexpected '<'
+      <th>Sigla</th>
+      ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:10: unknown regexp options - th
+      <th>Imagem</th>
+                 ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:11: syntax error, unexpected '<'
+      <th colspan="3"></th>
+      ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:11: syntax error, unexpected '<'
+      <th colspan="3"></th>
+                      ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:12: unknown regexp options - tr
+    </tr>
+     ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:13: syntax error, unexpected '<'
+  </thead>
+  ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:18: unknown regexp options - td
+...output_buffer.safe_append='</td>
+...                            ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:19: syntax error, unexpected '<'
+        <td>'.freeze;@output_buffer.ap...
+        ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:20: unknown regexp options - td
+...output_buffer.safe_append='</td>
+...                            ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:21: syntax error, unexpected '<'
+        <td>'.freeze;@output_buffer.ap...
+        ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:21: syntax error, unexpected local variable or method, expecting `end'
+...buffer.append=( link_to t('show'), coin );@output_buffer.saf...
+...                           ^~~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:22: unknown regexp options - td
+...output_buffer.safe_append='</td>
+...                            ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:23: syntax error, unexpected '<'
+        <td>'.freeze;@output_buffer.ap...
+        ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:23: syntax error, unexpected local variable or method, expecting `end'
+...ffer.append=( link_to t('delete'), coin, method: :delete, da...
+...                         ^~~~~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:23: syntax error, unexpected local variable or method, expecting `end'
+...te, data: { confirm: t('confirm') } );@output_buffer.safe_ap...
+...                        ^~~~~~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:24: unknown regexp options - tr
+      </tr>
+       ^~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:27: unknown regexp options - tabl
+</table>
+ ^~~~~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:29: syntax error, unexpected '<'
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:31: syntax error, unexpected constant, expecting `end'
+...t_buffer.append=( link_to 'Coin', new_coin_path );
+...                           ^~~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:36: unterminated string meets end of file
+          end
+             ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:36: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/views/coins/index.html.erb:8: unknown regexp options - th
+app/views/coins/index.html.erb:9: syntax error, unexpected '<'
+app/views/coins/index.html.erb:10: unknown regexp options - th
+app/views/coins/index.html.erb:11: syntax error, unexpected '<'
+app/views/coins/index.html.erb:11: syntax error, unexpected '<'
+app/views/coins/index.html.erb:12: unknown regexp options - tr
+app/views/coins/index.html.erb:13: syntax error, unexpected '<'
+app/views/coins/index.html.erb:18: unknown regexp options - td
+app/views/coins/index.html.erb:19: syntax error, unexpected '<'
+app/views/coins/index.html.erb:20: unknown regexp options - td
+app/views/coins/index.html.erb:21: syntax error, unexpected '<'
+app/views/coins/index.html.erb:21: syntax error, unexpected local variable or method, expecting `end'
+app/views/coins/index.html.erb:22: unknown regexp options - td
+app/views/coins/index.html.erb:23: syntax error, unexpected '<'
+app/views/coins/index.html.erb:23: syntax error, unexpected local variable or method, expecting `end'
+app/views/coins/index.html.erb:23: syntax error, unexpected local variable or method, expecting `end'
+app/views/coins/index.html.erb:24: unknown regexp options - tr
+app/views/coins/index.html.erb:27: unknown regexp options - tabl
+app/views/coins/index.html.erb:29: syntax error, unexpected '<'
+app/views/coins/index.html.erb:31: syntax error, unexpected constant, expecting `end'
+app/views/coins/index.html.erb:36: unterminated string meets end of file
+app/views/coins/index.html.erb:36: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/coins" for ::1 at 2023-04-15 21:01:19 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.5ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 48ms (Views: 43.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-15 21:01:27 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.3ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 38ms (Views: 35.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-15 21:08:03 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  Rendered coins/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:8: syntax error, unexpected ':', expecting ')'
+...( t('coin.fields.description'): );@output_buffer.safe_append...
+...                              ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:9: syntax error, unexpected ':', expecting ')'
+...end=( t('coin.fields.acronym'): );@output_buffer.safe_append...
+...                              ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:10: syntax error, unexpected ':', expecting ')'
+...d=( t('coin.fields.url_image'): );@output_buffer.safe_append...
+...                              ^
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:34: syntax error, unexpected `ensure', expecting ')'
+          ensure
+          ^~~~~~
+/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/coins/index.html.erb:36: syntax error, unexpected `end', expecting ')'
+          end
+          ^~~
+):
+  
+app/views/coins/index.html.erb:8: syntax error, unexpected ':', expecting ')'
+app/views/coins/index.html.erb:9: syntax error, unexpected ':', expecting ')'
+app/views/coins/index.html.erb:10: syntax error, unexpected ':', expecting ')'
+app/views/coins/index.html.erb:34: syntax error, unexpected `ensure', expecting ')'
+app/views/coins/index.html.erb:36: syntax error, unexpected `end', expecting ')'
+Started GET "/coins" for ::1 at 2023-04-15 21:08:44 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (44.9ms)
+Completed 200 OK in 63ms (Views: 59.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-15 21:33:44 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 51ms (Views: 48.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-15 21:33:45 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.3ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 36ms (Views: 33.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/coins/new" for ::1 at 2023-04-15 21:42:56 -0300
+Processing by CoinsController#new as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "mining_types"."description", "mining_types"."id" FROM "mining_types"[0m
+  ↳ app/controllers/coins_controller.rb:63
+  Rendering coins/new.html.erb within layouts/application
+  Rendered coins/_form.html.erb (5.7ms)
+  Rendered coins/new.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 57ms (Views: 38.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-15 21:45:17 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.5ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 41ms (Views: 38.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/coins/3" for ::1 at 2023-04-15 21:45:19 -0300
+Processing by CoinsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCoin Load (0.7ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:68
+  Rendering coins/show.html.erb within layouts/application
+  Rendered coins/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 57ms (Views: 30.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-15 21:45:22 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.4ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 40ms (Views: 36.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2023-04-15 21:45:27 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.9ms)
+  Rendered welcome/index.html.erb within layouts/adm (2.4ms)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:45:29 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.2ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 43ms (Views: 23.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/mining_types/2" for ::1 at 2023-04-15 21:45:32 -0300
+Processing by MiningTypesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMiningType Load (0.2ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/show.html.erb within layouts/application
+  Rendered mining_types/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:45:34 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mining_types/2/edit" for ::1 at 2023-04-15 21:45:35 -0300
+Processing by MiningTypesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mMiningType Load (0.3ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/edit.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (8.7ms)
+  Rendered mining_types/edit.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 44ms (Views: 40.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:46:19 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mining_types/3" for ::1 at 2023-04-15 21:46:21 -0300
+Processing by MiningTypesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/show.html.erb within layouts/application
+  Rendered mining_types/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:46:23 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:46:32 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.3ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 33ms (Views: 31.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:46:34 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.3ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 37ms (Views: 35.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:46:35 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.3ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 41ms (Views: 38.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:46:35 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.3ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 38ms (Views: 36.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:46:35 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.3ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 32ms (Views: 28.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:46:36 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.4ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 38ms (Views: 35.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:46:36 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.2ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 27ms (Views: 24.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:50:24 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/share/rvm/gems/ruby-2.7.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (29.8ms)
+Completed 200 OK in 142ms (Views: 136.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2023-04-15 21:50:33 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.8ms)
+  Rendered welcome/index.html.erb within layouts/adm (2.5ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:50:35 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.2ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 59ms (Views: 52.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:51:44 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.2ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 35ms (Views: 31.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:52:27 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.3ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:16
+  Rendered mining_types/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 38ms (Views: 35.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:53:00 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:16
+  Rendered mining_types/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mining_types/1/edit" for ::1 at 2023-04-15 21:53:03 -0300
+Processing by MiningTypesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiningType Load (0.6ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/edit.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (7.0ms)
+  Rendered mining_types/edit.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 48ms (Views: 24.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/mining_types/1/edit" for ::1 at 2023-04-15 21:53:55 -0300
+Processing by MiningTypesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiningType Load (0.2ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/edit.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (0.9ms)
+  Rendered mining_types/edit.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/views/mining_types/_form.html.erb:15: syntax error, unexpected ':', expecting ')'
+...ing_type.fields.description') :description );@output_buffer....
+...                              ^
+):
+  
+app/views/mining_types/_form.html.erb:15: syntax error, unexpected ':', expecting ')'
+app/views/mining_types/edit.html.erb:3:in `_app_views_mining_types_edit_html_erb__3724449400519755659_16660'
+Started GET "/mining_types/1/edit" for ::1 at 2023-04-15 21:54:15 -0300
+Processing by MiningTypesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/edit.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (2.4ms)
+  Rendered mining_types/edit.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mining_types/1/edit" for ::1 at 2023-04-15 21:54:26 -0300
+Processing by MiningTypesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiningType Load (0.2ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/edit.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (4.7ms)
+  Rendered mining_types/edit.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 31ms (Views: 28.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mining_types/1/edit" for ::1 at 2023-04-15 21:54:37 -0300
+Processing by MiningTypesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiningType Load (0.2ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/edit.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (3.7ms)
+  Rendered mining_types/edit.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mining_types/1/edit" for ::1 at 2023-04-15 21:55:52 -0300
+Processing by MiningTypesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiningType Load (0.2ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/edit.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (4.1ms)
+  Rendered mining_types/edit.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 27ms (Views: 24.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mining_types/1/edit" for ::1 at 2023-04-15 21:56:38 -0300
+Processing by MiningTypesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiningType Load (0.3ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/edit.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (8.0ms)
+  Rendered mining_types/edit.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 38ms (Views: 34.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:56:39 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.3ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 43ms (Views: 40.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/mining_types/new" for ::1 at 2023-04-15 21:56:45 -0300
+Processing by MiningTypesController#new as HTML
+  Rendering mining_types/new.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (2.5ms)
+  Rendered mining_types/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 25ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:56:48 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mining_types/1" for ::1 at 2023-04-15 21:56:49 -0300
+Processing by MiningTypesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/show.html.erb within layouts/application
+  Rendered mining_types/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mining_types/1" for ::1 at 2023-04-15 21:57:09 -0300
+Processing by MiningTypesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiningType Load (0.4ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/show.html.erb within layouts/application
+  Rendered mining_types/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 40ms (Views: 35.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:57:12 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mining_types/1/edit" for ::1 at 2023-04-15 21:57:22 -0300
+Processing by MiningTypesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiningType Load (0.2ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/edit.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (8.8ms)
+  Rendered mining_types/edit.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 45ms (Views: 41.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mining_types/1/edit" for ::1 at 2023-04-15 21:58:42 -0300
+Processing by MiningTypesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiningType Load (0.3ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/edit.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (12.8ms)
+  Rendered mining_types/edit.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 39ms (Views: 35.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/mining_types/1/edit" for ::1 at 2023-04-15 21:58:42 -0300
+Processing by MiningTypesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiningType Load (0.3ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/edit.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (3.9ms)
+  Rendered mining_types/edit.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 26ms (Views: 23.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/mining_types/1/edit" for ::1 at 2023-04-15 21:58:43 -0300
+Processing by MiningTypesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiningType Load (0.2ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/edit.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (3.6ms)
+  Rendered mining_types/edit.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 25ms (Views: 21.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mining_types/1/edit" for ::1 at 2023-04-15 21:58:43 -0300
+Processing by MiningTypesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiningType Load (0.2ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/edit.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (9.0ms)
+  Rendered mining_types/edit.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 42ms (Views: 38.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mining_types/1/edit" for ::1 at 2023-04-15 21:58:57 -0300
+Processing by MiningTypesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiningType Load (0.4ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/edit.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (7.6ms)
+  Rendered mining_types/edit.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 39ms (Views: 35.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:59:11 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.2ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mining_types/1/edit" for ::1 at 2023-04-15 21:59:19 -0300
+Processing by MiningTypesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/edit.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (3.2ms)
+  Rendered mining_types/edit.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:59:21 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.4ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 44ms (Views: 40.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/mining_types/1" for ::1 at 2023-04-15 21:59:23 -0300
+Processing by MiningTypesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/show.html.erb within layouts/application
+  Rendered mining_types/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:59:24 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mining_types/1/edit" for ::1 at 2023-04-15 21:59:26 -0300
+Processing by MiningTypesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMiningType Load (0.3ms)[0m  [1m[34mSELECT  "mining_types".* FROM "mining_types" WHERE "mining_types"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/mining_types_controller.rb:63
+  Rendering mining_types/edit.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (10.7ms)
+  Rendered mining_types/edit.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 44ms (Views: 39.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:59:30 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mining_types/new" for ::1 at 2023-04-15 21:59:32 -0300
+Processing by MiningTypesController#new as HTML
+  Rendering mining_types/new.html.erb within layouts/application
+  Rendered mining_types/_form.html.erb (10.3ms)
+  Rendered mining_types/new.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 41ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mining_types" for ::1 at 2023-04-15 21:59:34 -0300
+Processing by MiningTypesController#index as HTML
+  Rendering mining_types/index.html.erb within layouts/application
+  [1m[36mMiningType Load (0.1ms)[0m  [1m[34mSELECT "mining_types".* FROM "mining_types"[0m
+  ↳ app/views/mining_types/index.html.erb:15
+  Rendered mining_types/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-15 21:59:36 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.3ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 51ms (Views: 26.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/coins/1" for ::1 at 2023-04-15 21:59:38 -0300
+Processing by CoinsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:68
+  Rendering coins/show.html.erb within layouts/application
+  Rendered coins/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/coins/1" for ::1 at 2023-04-15 22:00:00 -0300
+Processing by CoinsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:68
+  Rendering coins/show.html.erb within layouts/application
+  Rendered coins/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 24.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/coins/1/edit" for ::1 at 2023-04-15 22:00:03 -0300
+Processing by CoinsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:68
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "mining_types"."description", "mining_types"."id" FROM "mining_types"[0m
+  ↳ app/controllers/coins_controller.rb:63
+  Rendering coins/edit.html.erb within layouts/application
+  Rendered coins/_form.html.erb (12.4ms)
+  Rendered coins/edit.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 46ms (Views: 40.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/coins/1/edit" for ::1 at 2023-04-15 22:01:35 -0300
+Processing by CoinsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT  "coins".* FROM "coins" WHERE "coins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/coins_controller.rb:68
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "mining_types"."description", "mining_types"."id" FROM "mining_types"[0m
+  ↳ app/controllers/coins_controller.rb:63
+  Rendering coins/edit.html.erb within layouts/application
+  Rendered coins/_form.html.erb (6.5ms)
+  Rendered coins/edit.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 32ms (Views: 27.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-15 22:01:39 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.2ms)
+
+

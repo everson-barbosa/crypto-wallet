@@ -1,5 +1,5 @@
-<h1>Nova Moeda</h1>
+<h1><%= t('coin.new') %></h1>
 
 <%= render 'form', coin: @coin %>
 
-<%= link_to 'Back', coins_path %>
+<%= link_to t('back'), coins_path %>
