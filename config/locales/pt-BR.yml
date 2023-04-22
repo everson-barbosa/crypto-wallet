@@ -24,6 +24,7 @@
         created_at: Criado em
         updated_at: Atualizado em
   welcome: 'Bem-vindo a'
+  current_locale: 'Português - Brasil'
   links:
     edit: "Editar"
     show: "Mostrar"
