@@ -54,9 +54,9 @@ namespace :dev do
     end
   end
 
-  desc "Cadastra os tipos de mineiração"
+  desc "Cadastra os tipos de mineração"
   task add_mining_types: :environment do
-    show_spinner("Cadastrando tipos de mineiração...") do
+    show_spinner("Cadastrando tipos de mineração...") do
       mining_types = [
         {
           description: "Proof of Work",
