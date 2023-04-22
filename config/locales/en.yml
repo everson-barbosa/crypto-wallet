@@ -1,26 +1,8 @@
 en:
   welcome: "Welcome to"
-  show: 'Show'
-  edit: 'Edit'
-  delete: 'Delete'
-  back: 'Back'
-  select: 'Select'
-  confirm: 'Are you sure?'
-  coin:
-    singular: 'Coin'
-    plural: 'Coins'
-    new: 'New coin'
-    edit: 'Edit coin'
-    fields:
-      description: 'Description' 
-      acronym: 'Acronym' 
-      url_image: 'URL Image' 
-      mining_type_id: 'Mining type Id'
-  mining_type:
-    singular: 'Mining type'
-    plural: 'Mining types'
-    new: 'New mining type'
-    edit: 'Edit coin'
-    fields:
-      description: 'Description' 
-      acronym: 'Acronym' 
+  links:
+    edit: "Edit"
+    show: "Show"
+    delete: "Delete"
+    back: "Back"
+  
