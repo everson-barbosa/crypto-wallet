@@ -6620,3 +6620,465 @@ Processing by CoinsController#index as HTML
 Completed 200 OK in 39ms (Views: 36.3ms | ActiveRecord: 0.6ms)
 
 
+Started GET "/coins" for ::1 at 2023-04-23 15:51:14 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/share/rvm/gems/ruby-2.7.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (30.1ms)
+Completed 500 Internal Server Error in 137ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/config
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/images
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/javascripts
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-2.7.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /usr/share/rvm/gems/ruby-2.7.0/gems/actioncable-5.2.8.1/lib/assets/compiled
+  /usr/share/rvm/gems/ruby-2.7.0/gems/activestorage-5.2.8.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-2.7.0/gems/actionview-5.2.8.1/lib/assets/compiled
+  /usr/share/rvm/gems/ruby-2.7.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= stylesheet_link_tag    'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= stylesheet_link_tag    params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
+    11: 
+  
+app/assets/javascripts/application.js.erb:16
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___3380053444209566634_15580'
+Started GET "/coins" for ::1 at 2023-04-23 15:51:28 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.3ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 69ms (Views: 63.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-23 15:51:38 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/config
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/images
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/javascripts
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-2.7.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /usr/share/rvm/gems/ruby-2.7.0/gems/actioncable-5.2.8.1/lib/assets/compiled
+  /usr/share/rvm/gems/ruby-2.7.0/gems/activestorage-5.2.8.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-2.7.0/gems/actionview-5.2.8.1/lib/assets/compiled
+  /usr/share/rvm/gems/ruby-2.7.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/node_modules):
+     9:     <%= stylesheet_link_tag    'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= stylesheet_link_tag    params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
+    11: 
+    12:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    13:     <%= javascript_include_tag params[:controller], 'data-turbolinks-track': 'reload' %>
+    14:   </head>
+    15: 
+  
+app/assets/javascripts/application.js.erb:16
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3380053444209566634_16620'
+Started GET "/coins" for ::1 at 2023-04-23 15:52:04 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/share/rvm/gems/ruby-2.7.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (35.2ms)
+Completed 500 Internal Server Error in 151ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'notify' with type 'application/javascript'
+Checked in these paths: 
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/config
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/images
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/javascripts
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-2.7.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /usr/share/rvm/gems/ruby-2.7.0/gems/actioncable-5.2.8.1/lib/assets/compiled
+  /usr/share/rvm/gems/ruby-2.7.0/gems/activestorage-5.2.8.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-2.7.0/gems/actionview-5.2.8.1/lib/assets/compiled
+  /usr/share/rvm/gems/ruby-2.7.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= stylesheet_link_tag    'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= stylesheet_link_tag    params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
+    11: 
+  
+app/assets/javascripts/application.js.erb:17
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2074856493372660239_15580'
+Started GET "/coins" for ::1 at 2023-04-23 15:52:15 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.3ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'notify-js-legacy' with type 'application/javascript'
+Checked in these paths: 
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/config
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/images
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/javascripts
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-2.7.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /usr/share/rvm/gems/ruby-2.7.0/gems/actioncable-5.2.8.1/lib/assets/compiled
+  /usr/share/rvm/gems/ruby-2.7.0/gems/activestorage-5.2.8.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-2.7.0/gems/actionview-5.2.8.1/lib/assets/compiled
+  /usr/share/rvm/gems/ruby-2.7.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= stylesheet_link_tag    'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= stylesheet_link_tag    params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
+    11: 
+  
+app/assets/javascripts/application.js.erb:17
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2074856493372660239_16340'
+Started GET "/coins" for ::1 at 2023-04-23 15:52:17 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.4ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (13.7ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'notify-js-legacy' with type 'application/javascript'
+Checked in these paths: 
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/config
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/images
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/javascripts
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-2.7.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /usr/share/rvm/gems/ruby-2.7.0/gems/actioncable-5.2.8.1/lib/assets/compiled
+  /usr/share/rvm/gems/ruby-2.7.0/gems/activestorage-5.2.8.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-2.7.0/gems/actionview-5.2.8.1/lib/assets/compiled
+  /usr/share/rvm/gems/ruby-2.7.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= stylesheet_link_tag    'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= stylesheet_link_tag    params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
+    11: 
+  
+app/assets/javascripts/application.js.erb:17
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2074856493372660239_16920'
+Started GET "/coins" for ::1 at 2023-04-23 15:53:44 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.3ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (12.1ms)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'notify' with type 'application/javascript'
+Checked in these paths: 
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/config
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/images
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/javascripts
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-2.7.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /usr/share/rvm/gems/ruby-2.7.0/gems/actioncable-5.2.8.1/lib/assets/compiled
+  /usr/share/rvm/gems/ruby-2.7.0/gems/activestorage-5.2.8.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-2.7.0/gems/actionview-5.2.8.1/lib/assets/compiled
+  /usr/share/rvm/gems/ruby-2.7.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= stylesheet_link_tag    'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= stylesheet_link_tag    params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
+    11: 
+  
+app/assets/javascripts/application.js.erb:17
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2074856493372660239_17460'
+Started GET "/coins" for ::1 at 2023-04-23 15:54:39 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 159ms (Views: 156.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-23 15:54:56 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.5ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 47ms (Views: 43.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-23 16:38:08 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/share/rvm/gems/ruby-2.7.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (30.2ms)
+Completed 500 Internal Server Error in 117ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'bootstrap' with type 'text/css'
+Checked in these paths: 
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/config
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/images
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/javascripts
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-2.7.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /usr/share/rvm/gems/ruby-2.7.0/gems/actioncable-5.2.8.1/lib/assets/compiled
+  /usr/share/rvm/gems/ruby-2.7.0/gems/activestorage-5.2.8.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-2.7.0/gems/actionview-5.2.8.1/lib/assets/compiled
+  /usr/share/rvm/gems/ruby-2.7.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/tester/Desktop/Studying/Udemy/Crypto-Wallet/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= stylesheet_link_tag    'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= stylesheet_link_tag    params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
+    11: 
+  
+app/assets/stylesheets/application.scss.erb:14
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3251743340107215174_15580'
+Started GET "/coins" for ::1 at 2023-04-23 16:39:50 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.4ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 273ms (Views: 269.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2023-04-23 16:39:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (2.1ms)
+  Rendered welcome/index.html.erb within layouts/adm (7.7ms)
+Completed 200 OK in 39ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-23 16:39:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/adm (1.5ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-23 16:40:32 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/adm (3.5ms)
+Completed 200 OK in 99ms (Views: 97.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-23 16:40:43 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (1.1ms)
+  Rendered welcome/index.html.erb within layouts/adm (4.0ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-23 16:41:00 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/adm (1.5ms)
+Completed 200 OK in 84ms (Views: 83.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-23 16:41:58 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.5ms)
+  Rendered welcome/index.html.erb within layouts/adm (1.6ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-23 16:42:23 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.7ms)
+  Rendered welcome/index.html.erb within layouts/adm (2.5ms)
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-23 16:42:31 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (1.5ms)
+  Rendered welcome/index.html.erb within layouts/adm (5.2ms)
+Completed 200 OK in 56ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-23 16:43:32 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.9ms)
+  Rendered welcome/index.html.erb within layouts/adm (3.1ms)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-23 16:43:56 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.8ms)
+  Rendered welcome/index.html.erb within layouts/adm (2.8ms)
+Completed 200 OK in 33ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-23 16:44:07 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (1.5ms)
+  Rendered welcome/index.html.erb within layouts/adm (5.0ms)
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-23 16:44:11 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.7ms)
+  Rendered welcome/index.html.erb within layouts/adm (2.9ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-23 16:44:17 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.9ms)
+  Rendered welcome/index.html.erb within layouts/adm (2.8ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-23 16:44:22 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/share/rvm/gems/ruby-2.7.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/adm (30.2ms)
+Completed 200 OK in 292ms (Views: 288.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2023-04-23 16:44:25 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/adm
+  Rendered welcome/_menu.html.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/adm (1.4ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-23 16:46:59 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/share/rvm/gems/ruby-2.7.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (29.4ms)
+Completed 200 OK in 206ms (Views: 200.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-23 16:47:25 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (1.4ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:16
+  Rendered coins/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 61ms (Views: 57.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-23 16:49:49 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:17
+  Rendered coins/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-23 16:50:11 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.1ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:17
+  Rendered coins/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-23 16:50:25 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.3ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:17
+  Rendered coins/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 46ms (Views: 44.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-23 16:50:38 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.2ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:17
+  Rendered coins/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 37ms (Views: 34.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-23 16:50:48 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.3ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:17
+  Rendered coins/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 46ms (Views: 42.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/coins" for ::1 at 2023-04-23 16:51:03 -0300
+Processing by CoinsController#index as HTML
+  Rendering coins/index.html.erb within layouts/application
+  [1m[36mCoin Load (0.4ms)[0m  [1m[34mSELECT "coins".* FROM "coins"[0m
+  ↳ app/views/coins/index.html.erb:17
+  Rendered coins/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 41ms (Views: 38.9ms | ActiveRecord: 0.4ms)
+
+

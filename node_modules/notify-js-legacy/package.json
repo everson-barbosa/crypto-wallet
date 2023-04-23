@@ -1,0 +1,23 @@
+{
+  "name": "notify-js-legacy",
+  "version": "0.4.1",
+  "description": "Notify.js - A simple, versatile notification library http://notifyjs.com",
+  "main": "notify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpillora/notifyjs.git"
+  },
+  "keywords": [
+    "growl",
+    "notifications"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpillora/notifyjs/issues"
+  },
+  "homepage": "https://github.com/jpillora/notifyjs#readme"
+}
