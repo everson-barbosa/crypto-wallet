@@ -25,6 +25,7 @@
         updated_at: Atualizado em
   welcome: 'Bem-vindo a'
   current_locale: 'Português - Brasil'
+  current_locale_acronym: 'pt-BR'
   links:
     edit: "Editar"
     show: "Mostrar"

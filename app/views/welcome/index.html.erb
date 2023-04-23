@@ -1,4 +1,13 @@
 <h1><%= t('welcome') %> <%= application_name %>!  </h1>
+<p>Linguagens</p>
+<ul>
+  <li>
+    <%= link_to 'Português - Brasil', '/?locale=pt-BR' %>
+  </li>
+  <li>
+    <%= link_to 'English', '/?locale=en' %>
+  </li>
+</ul>
 <p>O idioma usado nessa aplicação é: <strong><%= t('current_locale') %></strong></p>
 <p><strong>Data:</strong> <%= l(Date.today) %></p>
 <p>Usuário: <%= @name %></p>

@@ -1,6 +1,7 @@
 en:
   welcome: "Welcome to"
   current_locale: 'English'
+  current_locale_acronym: 'en'
   links:
     edit: "Edit"
     show: "Show"
