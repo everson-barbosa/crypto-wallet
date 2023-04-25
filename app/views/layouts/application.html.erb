@@ -6,7 +6,6 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= stylesheet_link_tag    'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_link_tag    params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
 
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -14,7 +13,36 @@
   </head>
 
   <body>
-    <%= yield %>
-    <footer>São Paulo, SP - <%= t(Date.today) %></footer>
+    <div>
+      <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-lg">
+          <%= link_to "Crypto Wallet", welcome_index_path, class: 'navbar-brand' %>          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <%= link_to "Home", welcome_index_path, class: [*('active' if params[:controller] == 'welcome'),'nav-link'] %>
+              </li>
+              <li class="nav-item">
+                <%= link_to "Moedas", coins_path, class: [*('active' if params[:controller] == 'coins'),'nav-link'] %>
+              </li>
+              
+              <li class="nav-item">
+                <%= link_to "Tipos de Mineiração", mining_types_path, class: [*('active' if params[:controller] == 'mining_types'),'nav-link'] %>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>     
+
+        <div class="container-lg mt-5">
+          <%= yield %>
+        </div>
+    </div>
   </body>
 </html>

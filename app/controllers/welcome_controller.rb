@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
-  layout 'adm'
+  # layout 'adm'
 
   def index
     @name = params[:name]
