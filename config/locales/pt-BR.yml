@@ -1,4 +1,5 @@
 'pt-BR':
+  language: "Idioma"
   activerecord:
     models:
       coin: 
