@@ -41,10 +41,10 @@
                   </a>
                   <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
                     <li>
-                      <%= link_to 'Português - Brasil', '/?locale=pt-BR', class: [*('disabled' if params[:locale] === 'pt-BR'), 'dropdown-item'] %>
+                      <%= link_to 'Português - Brasil', '?locale=pt-BR', class: [*('disabled' if I18n.locale === 'pt-BR'), 'dropdown-item'] %>
                     </li>
                     <li>
-                      <%= link_to 'English', '/?locale=en', class: [*('disabled' if params[:locale] === 'en'), 'dropdown-item'] %>
+                      <%= link_to 'English', '?locale=en', class: [*('disabled' if I18n.locale === 'en'), 'dropdown-item'] %>
                     </li>
                   </ul>
                 </li>
