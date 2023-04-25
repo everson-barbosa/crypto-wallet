@@ -26,11 +26,11 @@
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               
               <li class="nav-item position-relative">
-                <%= link_to "Moedas", coins_path, class: [*('active' if params[:controller] == 'coins'),'nav-link'] %>
+                <%= link_to "#{Coin.model_name.human}", coins_path, class: [*('active' if params[:controller] == 'coins'),'nav-link'] %>
               </li>
               
               <li class="nav-item position-relative">
-                <%= link_to "Tipos de Mineiração", mining_types_path, class: [*('active' if params[:controller] == 'mining_types'),'nav-link'] %>
+                <%= link_to "#{MiningType.model_name.human}", mining_types_path, class: [*('active' if params[:controller] == 'mining_types'),'nav-link'] %>
               </li>
             </ul>
 
