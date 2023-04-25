@@ -1,5 +1,6 @@
 en:
   welcome: "Welcome to"
+  greetings: 'This is Crypto Wallet, an application for you to register and monitor your cryptocurrencies.'
   current_locale: 'English'
   current_locale_acronym: 'en'
   links:

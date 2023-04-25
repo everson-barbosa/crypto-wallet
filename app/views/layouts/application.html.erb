@@ -24,25 +24,46 @@
 
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li class="nav-item">
-                <%= link_to "Home", welcome_index_path, class: [*('active' if params[:controller] == 'welcome'),'nav-link'] %>
-              </li>
-              <li class="nav-item">
+              
+              <li class="nav-item position-relative mx-4">
                 <%= link_to "Moedas", coins_path, class: [*('active' if params[:controller] == 'coins'),'nav-link'] %>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary mt-2">
+                  <%= Coin.count > 9 ? '9+' : Coin.count %>
+                </span>
               </li>
               
-              <li class="nav-item">
+              <li class="nav-item position-relative">
                 <%= link_to "Tipos de Mineiração", mining_types_path, class: [*('active' if params[:controller] == 'mining_types'),'nav-link'] %>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary mt-2">
+                  <%= MiningType.count > 9 ? '9+' : MiningType.count %>
+                </span>
               </li>
             </ul>
             
           </div>
+          <div class="d-flex">
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li>
+                      <%= link_to 'Português - Brasil', '/?locale=pt-BR', class: [*('disabled' if params[:locale] === 'pt-BR'), 'dropdown-item'] %>
+                    </li>
+                    <li>
+                      <%= link_to 'English', '/?locale=en', class: [*('disabled' if params[:locale] === 'en'), 'dropdown-item'] %>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </nav>     
 
-        <div class="container-lg mt-5">
-          <%= yield %>
-        </div>
+      <%= yield %>
     </div>
   </body>
 </html>

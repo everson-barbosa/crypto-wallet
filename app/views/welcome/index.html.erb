@@ -1,16 +1,17 @@
 
-<h1><%= t('welcome') %> <%= application_name %>!  </h1>
-<p>Linguagens</p>
-<ul>
-  <li>
-    <%= link_to 'Português - Brasil', '/?locale=pt-BR' %>
-  </li>
-  <li>
-    <%= link_to 'English', '/?locale=en' %>
-  </li>
-</ul>
+<div class="pt-5 bg-light bg-gradient">
 
-<%= render "menu" %>
+  <div class="container-lg">
+    <h1 class="display-3"><%= t('welcome') %> <%= application_name %>!  </h1>
+    <p class="lead">
+      <%= t('greetings') %>
+    </p>
+
+  </div>
+
+</div>
+
+<!-- <%= render "menu" %> -->
 
 <!-- <p>Você está no ambiente de <strong><%= application_environment %></strong></p> -->
 

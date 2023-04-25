@@ -23,7 +23,8 @@
         acronym: Sigla
         created_at: Criado em
         updated_at: Atualizado em
-  welcome: 'Bem-vindo a'
+  welcome: 'Bem-vindo ao'
+  greetings: 'Este é o Crypto Wallet, uma aplicação para você cadastrar e acompanhar as suas criptomoedas.'
   current_locale: 'Português - Brasil'
   current_locale_acronym: 'pt-BR'
   links:
