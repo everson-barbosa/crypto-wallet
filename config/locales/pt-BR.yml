@@ -4,10 +4,10 @@
     models:
       coin: 
         one: Moeda
-        others: Moedas
+        other: Moedas
       mining_type: 
         one: Tipo de mineração
-        others: Tipos de Mineiração
+        other: Tipos de Mineiração
     attributes:
       coin:
         id: Código
@@ -32,6 +32,7 @@
     edit: "Editar"
     show: "Mostrar"
     delete: "Deletar"
+    add: "Adicionar"
     back: "Voltar"
     confirm: "Você tem certeza?"
   

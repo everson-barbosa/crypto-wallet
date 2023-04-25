@@ -1,5 +1,13 @@
 en:
   language: "Language"
+  activerecord:
+    models:
+      coin: 
+        one: Coin
+        other: Coins
+      mining_type: 
+        one: Mining type
+        other: Mining types
   welcome: "Welcome to"
   greetings: 'This is Crypto Wallet, an application for you to register and monitor your cryptocurrencies.'
   current_locale: 'English'
@@ -8,6 +16,7 @@ en:
     edit: "Edit"
     show: "Show"
     delete: "Delete"
+    add: "Add"
     back: "Back"
     confirm: "Are you sure?"
   

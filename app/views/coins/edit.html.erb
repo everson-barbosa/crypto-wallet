@@ -1,4 +1,4 @@
-<h1>Coin edit</h1>
+<h1><%= "#{Coin.model_name.human(count: Coin.count)} - #{t('links.edit')}" %></h1>
 
 <%= render 'form', coin: @coin %>
 
