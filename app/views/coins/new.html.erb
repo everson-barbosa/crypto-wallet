@@ -1,5 +1,4 @@
-<h1>New Coin</h1>
+<h1><%= "#{t('links.new')} - #{Coin.model_name.human}" %></h1>
 
 <%= render 'form', coin: @coin %>
 
-<%= link_to t('links.back'), coins_path %>

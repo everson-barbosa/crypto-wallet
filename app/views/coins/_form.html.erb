@@ -11,27 +11,33 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :description %>
-    <%= form.text_field :description %>
+  <div class="row">
+
+    <div class="field col-lg-4  col-md-6 mt-3">
+      <%= form.label :description, class: 'form-label' %>
+      <%= form.text_field :description, class: 'form-control', placeholder: 'Bitcoin' %>
+    </div>
+
+    <div class="field col-lg-4  col-md-6 mt-3">
+      <%= form.label :acronym, class: 'form-label' %>
+      <%= form.text_field :acronym, class: 'form-control', placeholder: 'BTC'  %>
+    </div>
+
+    <div class="field col-lg-4  col-md-6 mt-3">
+      <%= form.label :url_image, class: 'form-label' %>
+      <%= form.text_field :url_image, class: 'form-control', placeholder: 'https://example.png'  %>
+    </div>
+
+    <div class="field col-lg-4 col-md-6 mt-3">
+      <%= form.label :mining_type_id, class: 'form-label' %>
+      <%= form.select('mining_type_id', @mining_type_options, { include_blank: 'Select' }, class: 'form-select' ) %>
+    </div>
+
+    <div class="actions mt-3 d-flex col-12">
+      <%= form.submit "#{t('links.create')} #{Coin.model_name.human}", class: 'btn btn-primary' %>
+      <%= link_to t('links.back'), coins_path, class: 'btn btn-neutral mx-3' %>
+    </div>
+
   </div>
 
-  <div class="field">
-    <%= form.label :acronym %>
-    <%= form.text_field :acronym %>
-  </div>
-
-  <div class="field">
-    <%= form.label :url_image %>
-    <%= form.text_field :url_image %>
-  </div>
-
-  <div class="field">
-    <%= form.label :mining_type_id %>
-    <%= form.select('mining_type_id', @mining_type_options, { include_blank: 'Select' } ) %>
-  </div>
-
-  <div class="actions">
-    <%= form.submit %>
-  </div>
 <% end %>

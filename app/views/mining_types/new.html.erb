@@ -1,5 +1,3 @@
-<h1> New Mining type</h1>
+<h1><%= "#{t('links.new')} - #{MiningType.model_name.human}" %></h1>
 
 <%= render 'form', mining_type: @mining_type %>
-
-<%= link_to t('links.back'), mining_types_path %>

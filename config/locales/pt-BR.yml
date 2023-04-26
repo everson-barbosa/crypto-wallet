@@ -29,10 +29,12 @@
   current_locale: 'Português - Brasil'
   current_locale_acronym: 'pt-BR'
   links:
+    create: "Criar"
     edit: "Editar"
     show: "Mostrar"
     delete: "Deletar"
     add: "Adicionar"
+    new: "Novo"
     back: "Voltar"
     confirm: "Você tem certeza?"
   

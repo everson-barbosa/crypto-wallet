@@ -13,10 +13,12 @@ en:
   current_locale: 'English'
   current_locale_acronym: 'en'
   links:
+    create: "Create"
     edit: "Edit"
     show: "Show"
     delete: "Delete"
     add: "Add"
+    new: "New"
     back: "Back"
     confirm: "Are you sure?"
   
