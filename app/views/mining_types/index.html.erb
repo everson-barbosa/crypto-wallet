@@ -2,29 +2,31 @@
 
 <h1>Mining types</h1>
 
-<table class="table table-sm">
-  <thead>
-    <tr>
-      <th><%= @mining_types.human_attribute_name(:description) %></th>
-      <th><%= @mining_types.human_attribute_name(:acronym) %></th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @mining_types.each do |mining_type| %>
+<div class="table-responsive">
+  <table class="table table-sm">
+    <thead>
       <tr>
-        <td><%= mining_type.description %></td>
-        <td><%= mining_type.acronym %></td>
-        <td><%= link_to t('links.show'), mining_type %></td>
-        <td><%= link_to t('links.edit'), edit_mining_type_path(mining_type) %></td>
-        <td><%= link_to t('links.delete'), mining_type, method: :delete, data: { confirm: t('links.confirm') } %></td>
+        <th><%= @mining_types.human_attribute_name(:description) %></th>
+        <th><%= @mining_types.human_attribute_name(:acronym) %></th>
+        <th colspan="3"></th>
       </tr>
-    <% end %>
-  </tbody>
-</table>
+    </thead>
 
-<div class="d-flex mt-5">
+    <tbody>
+      <% @mining_types.each do |mining_type| %>
+        <tr>
+          <td><%= mining_type.description %></td>
+          <td><%= mining_type.acronym %></td>
+          <td width="40px"><%= link_to t('links.show'), mining_type, class: "btn btn-primary btn-sm" %></td>
+          <td width="40px"><%= link_to t('links.edit'), edit_mining_type_path(mining_type), class: "btn btn-primary btn-sm" %></td>
+          <td width="40px"><%= link_to t('links.delete'), mining_type, class: "btn btn-danger btn-sm", method: :delete, data: { confirm: t('links.confirm') } %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+
+<div class="d-flex mt-2">
   <%= link_to "#{t('links.add')} #{MiningType.model_name.human}", new_mining_type_path, class: 'btn btn-primary' %><br/>
   <%= link_to t('links.back'), '/', class: 'btn btn-neutral mx-3' %>
 </div>
