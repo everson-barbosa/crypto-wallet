@@ -1,26 +1,34 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong><%= Coin.human_attribute_name(:description) %>:</strong>
-  <%= @coin.description %>
-</p>
+<div class="row">
 
-<p>
-  <strong><%= Coin.human_attribute_name(:acronym) %>:</strong>
-  <%= @coin.acronym %>
-</p>
+  <div class="col-lg-4 col-md-6 mt-3">
+    <label class="form-label"><%= Coin.human_attribute_name(:description) %></label>
+    <input class="form-control" type="text" value="<%= @coin.description %>" disabled readonly>
+  </div>  
 
-<p>
-  <strong>URL Image:</strong>
-  <%= image_tag @coin.url_image, size: 25, alt: @coin.description %>
-  <!-- <%= @coin.url_image %> -->
-</p>
+  <div class="col-lg-4 col-md-6 mt-3">
+    <label class="form-label"><%= Coin.human_attribute_name(:acronym) %></label>
+    <input class="form-control" type="text" value="<%= @coin.acronym %>" disabled readonly>
+  </div> 
 
-<p>
-  <strong><%= Coin.human_attribute_name(:mining_type) %>:</strong>
-  <%= @coin.mining_type.description %>
-</p>
+  <div class="col-lg-4 col-md-6 mt-3">
+    <label class="form-label"><%= Coin.human_attribute_name(:mining_type) %></label>
+    <input class="form-control" type="text" value="<%= @coin.mining_type.description %>" disabled readonly>
+  </div> 
 
-<%= link_to t('links.edit'), edit_coin_path(@coin) %> |
-<%= link_to t('links.back'), coins_path %>
+  <div class="col-12 col-lg-4 col-md-6 mt-3">
+    <label class="form-label"><%= Coin.human_attribute_name(:url_image) %>:</label>
+    <input class="form-control mb-2" type="text" value="<%= @coin.url_image %>" disabled readonly>
+    <%= image_tag @coin.url_image, size: 25, alt: @coin.description %>
+  </div> 
+
+  <div class="col-12">
+    <div class="d-flex mt-3">
+      <%= link_to "#{t("links.edit")} #{Coin.model_name.human}", edit_coin_path(@coin), class: 'btn btn-primary' %>
+      <%= link_to t('links.back'), coins_path, class: 'btn btn-neutral mx-3' %>
+    </div>
+  </div>
+</div>
+
 

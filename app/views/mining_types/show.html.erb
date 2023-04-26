@@ -1,14 +1,24 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Description:</strong>
-  <%= @mining_type.description %>
-</p>
+<div class="row">
 
-<p>
-  <strong>Acronym:</strong>
-  <%= @mining_type.acronym %>
-</p>
+  <div class="col-lg-4 col-md-6 mt-3">
+    <label class="form-label"><%= MiningType.human_attribute_name(:description) %></label>
+    <input class="form-control" type="text" value="<%= @mining_type.description %>" disabled readonly>
+  </div>  
 
-<%= link_to t('links.edit'), edit_mining_type_path(@mining_type) %> |
-<%= link_to t('links.back'), mining_types_path %>
+  <div class="col-lg-4 col-md-6 mt-3">
+    <label class="form-label"><%= MiningType.human_attribute_name(:acronym) %></label>
+    <input class="form-control" type="text" value="<%= @mining_type.acronym %>" disabled readonly>
+  </div> 
+
+</div>
+
+  <div class="col-12">
+    <div class="d-flex mt-3">
+      <%= link_to "#{t("links.edit")} #{MiningType.model_name.human}", edit_mining_type_path(@mining_type), class: 'btn btn-primary' %>
+      <%= link_to t('links.back'), mining_types_path, class: 'btn btn-neutral mx-3' %>
+    </div>
+  </div>
+</div>
+
