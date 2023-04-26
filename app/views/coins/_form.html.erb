@@ -34,10 +34,9 @@
     </div>
 
     <div class="actions mt-3 d-flex col-12">
-      <%= form.submit "#{t('links.create')} #{Coin.model_name.human}", class: 'btn btn-primary' %>
+      <%= form.submit "#{t("links.#{action_name}")} #{Coin.model_name.human}", class: 'btn btn-primary' %>
       <%= link_to t('links.back'), coins_path, class: 'btn btn-neutral mx-3' %>
     </div>
-
   </div>
 
 <% end %>
