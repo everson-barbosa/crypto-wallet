@@ -2,12 +2,12 @@
 
 <h1><%= Coin.model_name.human(count: Coin.count) %></h1>
 
-<table class="table">
+<table class="table table-sm">
   <thead>
     <tr>
-      <th><%= @coins.human_attribute_name(:description) %>:</th>
-      <th><%= @coins.human_attribute_name(:acronym) %>:</th>
-      <th><%= @coins.human_attribute_name(:url_image) %>:</th>
+      <th><%= @coins.human_attribute_name(:description) %></th>
+      <th><%= @coins.human_attribute_name(:acronym) %></th>
+      <th><%= @coins.human_attribute_name(:url_image) %></th>
       <th colspan="3"></th>
     </tr>
   </thead>

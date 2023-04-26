@@ -2,11 +2,11 @@
 
 <h1>Mining types</h1>
 
-<table class="table table-hover">
+<table class="table table-sm">
   <thead>
     <tr>
-      <th><%= @mining_types.human_attribute_name(:description) %>:</th>
-      <th><%= @mining_types.human_attribute_name(:acronym) %>:</th>
+      <th><%= @mining_types.human_attribute_name(:description) %></th>
+      <th><%= @mining_types.human_attribute_name(:acronym) %></th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -24,7 +24,7 @@
   </tbody>
 </table>
 
-<br>
-
-<%= link_to 'New Mining type', new_mining_type_path %><br />
-<%= link_to t('links.back'), '/' %>
+<div class="d-flex mt-5">
+  <%= link_to "#{t('links.add')} #{MiningType.model_name.human}", new_mining_type_path, class: 'btn btn-primary' %><br/>
+  <%= link_to t('links.back'), '/', class: 'btn btn-neutral mx-3' %>
+</div>
